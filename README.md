@@ -25,9 +25,11 @@ Spring Boot: 3.2.5
 
 Java: 22
 
-## Running
+## Running the app
 
-daw
+Clean the project, install and run:
+
+`` java -jar .\springbootjpa-0.0.1-SNAPSHOT.jar --server.port=8081 ``
 
 ## More
 

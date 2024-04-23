@@ -18,6 +18,7 @@ Learning Spring Boot JPA (_Java Persistence API_).
 - [Relationships](#relationships-1)
 - [Testing](#testing)
 - [Paging and Sorting](#paging-and-sorting)
+- [Running the app](#running-the-app)
 - [Interview Questions \& Answers](#interview-questions--answers)
 
 ## ER Diagram
@@ -207,6 +208,12 @@ JUnit5 testing
 ## Paging and Sorting
 
 
+
+## Running the app
+
+Clean the project, install and run:
+
+`` java -jar .\springbootjpa-0.0.1-SNAPSHOT.jar --server.port=8081 ``
 
 ## Interview Questions & Answers
 
