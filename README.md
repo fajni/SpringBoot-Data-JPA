@@ -34,3 +34,5 @@ Clean the project, install and run:
 ## More
 
 For more about this project check file: <a href="./SpringBootJPA.md">SpringBootJPA.md</a>
+
+Rest API: __rest__ branch
