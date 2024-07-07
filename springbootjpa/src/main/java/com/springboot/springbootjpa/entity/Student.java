@@ -1,6 +1,6 @@
 package com.springboot.springbootjpa.entity;
 
-import com.springboot.springbootjpa.id.StudentId;
+import com.springboot.springbootjpa.entity.id.StudentId;
 import jakarta.persistence.*;
 import java.util.List;
 

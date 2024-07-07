@@ -1,9 +1,7 @@
 package com.springboot.springbootjpa.repository;
 
 import com.springboot.springbootjpa.entity.Student;
-import com.springboot.springbootjpa.id.StudentId;
-import jakarta.persistence.IdClass;
-import org.junit.jupiter.api.AfterAll;
+import com.springboot.springbootjpa.entity.id.StudentId;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.springboot.springbootjpa.id;
+package com.springboot.springbootjpa.entity.id;
 
 import com.springboot.springbootjpa.entity.Subject;
 import jakarta.persistence.*;
@@ -22,5 +22,13 @@ public class EnrollmentId implements Serializable {
     public EnrollmentId(Subject subject, StudentId studentId) {
         this.subject = subject;
         this.studentId = studentId;
+    }
+
+    public StudentId getStudentId() {
+        return studentId;
+    }
+
+    public Subject getSubject() {
+        return subject;
     }
 }

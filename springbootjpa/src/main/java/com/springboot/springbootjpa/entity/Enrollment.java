@@ -1,7 +1,6 @@
 package com.springboot.springbootjpa.entity;
 
-import com.springboot.springbootjpa.id.EnrollmentId;
-import com.springboot.springbootjpa.id.StudentId;
+import com.springboot.springbootjpa.entity.id.EnrollmentId;
 import jakarta.persistence.*;
 
 import java.util.Date;
@@ -31,5 +30,12 @@ public class Enrollment {
     public Enrollment(EnrollmentId enrollmentId, Date date_of_enrollment) {
         this.enrollmentId = enrollmentId;
         this.date_of_enrollment = date_of_enrollment;
+    }
+
+    @Override
+    public String toString() {
+        return enrollmentId.getStudentId().toString() +
+                "\nSubject: " + enrollmentId.getSubject() +
+                "\nDate: " + date_of_enrollment;
     }
 }

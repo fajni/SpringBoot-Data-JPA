@@ -1,7 +1,7 @@
 package com.springboot.springbootjpa.repository;
 
 import com.springboot.springbootjpa.entity.Student;
-import com.springboot.springbootjpa.id.StudentId;
+import com.springboot.springbootjpa.entity.id.StudentId;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

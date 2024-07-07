@@ -1,7 +1,8 @@
-package com.springboot.springbootjpa.id;
+package com.springboot.springbootjpa.entity.id;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
+
 import java.io.Serializable;
 
 @Embeddable
@@ -35,5 +36,11 @@ public class StudentId implements Serializable {
 
     public void setAdmission_year(Integer admission_year) {
         this.admission_year = admission_year;
+    }
+
+    @Override
+    public String toString() {
+        return "Admission year: " + admission_year +
+                "\nStudent id: " + id;
     }
 }

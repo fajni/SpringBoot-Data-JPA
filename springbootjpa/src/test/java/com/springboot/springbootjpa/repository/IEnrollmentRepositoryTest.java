@@ -3,13 +3,12 @@ package com.springboot.springbootjpa.repository;
 import com.springboot.springbootjpa.entity.Enrollment;
 import com.springboot.springbootjpa.entity.Student;
 import com.springboot.springbootjpa.entity.Subject;
-import com.springboot.springbootjpa.id.EnrollmentId;
+import com.springboot.springbootjpa.entity.id.EnrollmentId;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.sql.Date;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
